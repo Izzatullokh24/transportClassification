@@ -4,7 +4,7 @@ import pathlib
 import plotly.express as px
 temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath
-
+!pip install fastai
 
 st.title("Transport classification model")
 
